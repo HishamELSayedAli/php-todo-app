@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(orange,yellow);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    margin:100px 0px;
+    min-height: 400px;
+    width: 100%;
+    background-color:#dbdbdb ;
+    padding: 10px 20px ;
+}
+.head{
+    width: 100%;
+    margin: auto;
+}
+.todo{
+    display: flexbox;
+    justify-content: center;
+}
+form{ 
+    width: 100%;
+    margin:0px auto;   
+   
+}
+input{
+    background-color: #dbdbdb;
+    border: none;
+    border-bottom:1px solid #000000 ;
+    width: 50%;
+    height: 40px;
+    margin-bottom:10px;
+}
+input:focus{
+    background-color: #dbdbdb;
+    outline: none;
+    border-bottom:1px solid rgb(112, 112, 112) ;
+}
+.btn{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.btn-orange{
+    background-color: rgb(255, 166, 0);
+    color: #ffffff;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.btn:hover{
+    background-color:  rgb(206, 135, 3);
+    box-shadow: 5px 0px 10px #aaaaaa;
+
+}
+.card{
+    width: 80%;
+    margin:auto ;
+    border-bottom:1px solid rgb(112, 112, 112) ;
+    display: flex;
+}
+.name {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.card > .icons{
+    display: flex;
+    justify-content:end;
+    padding: 20px 10px;
+    width: 20%;
+}
+ a > i{
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: #000000;
+}
+.pen:hover{
+    color: rgb(63, 82, 255);
+}
+.x:hover{
+    color: rgb(63, 82, 255);
+}
+.info, .success, .warning, .error, .validation {
+			border: 1px solid;
+			margin: 10px 0px;
+			padding: 15px 10px 15px 50px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+		}
+		.info {
+			color: #00529B;
+			background-color: #BDE5F8;
+			background-image: url('https://i.imgur.com/ilgqWuX.png');
+		}
+		.success {
+			color: #4F8A10;
+			background-color: #DFF2BF;
+			background-image: url('https://i.imgur.com/Q9BGTuy.png');
+		}
+		.warning {
+			color: #9F6000;
+			background-color: #FEEFB3;
+			background-image: url('https://i.imgur.com/Z8q7ww7.png');
+		}
+		.error{
+			color: #D8000C;
+			background-color: #FFBABA;
+			background-image: url('https://i.imgur.com/GnyDvKN.png');
+		}
+		.validation{
+			color: #D63301;
+			background-color: #FFCCBA;
+			background-image: url('https://i.imgur.com/GnyDvKN.png');
+		}
+
+
+
+
+
