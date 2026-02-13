@@ -3,7 +3,7 @@
 A simple **PHP To-Do List Application** using **PDO** and **MySQL**.  
 Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 
-## Features
+# Features
 
 - Add new tasks
 - Edit existing tasks
@@ -11,7 +11,7 @@ Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 - User-friendly interface with responsive design
 - Session-based success and error messages
 
-## Technologies Used
+# Technologies Used
 
 - PHP 8+
 - MySQL / MariaDB
@@ -20,7 +20,7 @@ Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 - Font Awesome for icons
 - Google Fonts (Roboto)
 
-## Installation
+# Installation
 
 1. Clone the repository:
    ```bash
@@ -37,7 +37,7 @@ Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 4.Open todo.php in your browser.
 
 
-##Usage
+#Usage
 
 Add a new task using the input field.
 
@@ -46,3 +46,9 @@ Click the edit icon to update a task.
 Click the delete icon to remove a task.
 
 Messages will show for successful actions or errors.
+
+
+
+
+> **Developed by [HishamELSayedAli](https://github.com/HishamELSayedAli)**  
+> Modern JS frontend project demonstrating clean UI, modular JavaScript, and responsive design.
