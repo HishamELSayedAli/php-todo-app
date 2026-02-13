@@ -20,7 +20,7 @@ Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 - Font Awesome for icons
 - Google Fonts (Roboto)
 
-##⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repository:
    ```bash
