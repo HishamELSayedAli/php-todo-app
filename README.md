@@ -24,7 +24,7 @@ Manage your tasks efficiently with Add, Edit, and Delete functionalities.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/php-todo-app.git
+   git clone https://github.com/HishamELSayedAli/php-todo-app.git
 2. Import the tasks.sql file into your MySQL database.
 
 3. Update database connection in connect.php:
